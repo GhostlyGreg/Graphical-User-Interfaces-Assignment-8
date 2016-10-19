@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- 
+      Name: Gregory James Caldwell Jr.
+      Email: Gregory_Caldwell@student.uml.edu
+      File: index.html
+      Date: Wednesday November 26th, 2014
+      Course: 91.461 - GUI Programming
+    -->
+    
+	  <title>Assignment 8 GUI Programming</title>
+    
+    <!--  JQuery Stylesheet -->
+	  <!-- List of JQuery themes and how to CDN-link them: -->
+	  <!-- http://stackoverflow.com/questions/820412/downloading-jquery-ui-css-from-googles-cdn -->
+	  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/black-tie/jquery-ui.css">
+    
+    <!-- Personal Stylesheet -->
+	  <!-- index.css is styling index.html -->
+    <link rel="stylesheet" href="stylesheets/index.css">	
+
+    <!-- JQuery Google CDN -->
+    <!-- https://developers.google.com/speed/libraries/devguide -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- JQuery UI Google CDN -->
+    <!-- https://developers.google.com/speed/libraries/devguide -->
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	
+	  <!-- Personal Utility Scripts -->
+    <script type="text/javascript" src="javascripts/main.js"></script>
+    
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
+
+    
+  </head>
+
+  <body>
+    <h1>Dynamic Tabs</h1>
+  <fieldset>
+    <!-- Division showing the tabs -->
+    <div id="myTabs">
+
+      <ul>
+        <li><a href="#Main">Tab 1</a></li>
+      </ul>
+  
+
+      <div id="Main">
+        <p>This is the main tab.</p>
+        <h3> Please input 4 number and click "Add Tab" </h3>
+        <h3> Please keep in mind all non-number inputs </h3> 
+        <h3> will be treated as zero. </h3>
+  
+          <form id="Form" action="javascript:void(0)">
+
+            <h3> Minimum Row Index   
+              <input type="number" id="minRow" tabindex="1" />
+            </h3>
+
+            <h3> Maximum Row Index   
+              <input type="number" id="maxRow" tabindex="2" />
+            </h3>
+
+            <h3> Minimum Column Index   
+              <input type="number" id="minColumn" tabindex="3" />
+            </h3>
+
+            <h3> Maximum Column Index   
+              <input type="number" id="maxColumn" tabindex="4" />
+            </h3>
+            
+          </form>
+        <button class="add-tab">Add Tab</button> 
+        <button class="remove-tab">Remove Tab</button>
+
+      </div>
+<fieldset>
+      
+    </div>
+  </body>
+</html>

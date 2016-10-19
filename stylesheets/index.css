@@ -1,0 +1,18 @@
+/*************************************************************************************
+ Name:           Gregory James Caldwell Jr. 
+ Email:          Gregory_Caldwell@student.uml.edu or DevilishCrusader@yahoo.com
+ Creation Date:  11/20/20014
+ Summary:        This is the style-sheet for index.html
+ Filename:       index.css
+*************************************************************************************/
+
+ /***** Useful resources for styling my website *****/
+ /* http://tympanus.net/Tutorials/CSS3ButtonSwitches/ */
+ /* http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/# */
+ /* http://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934 */
+ 
+body {
+  background: darkgreen;
+  color: #777;
+  margin: 25px 100px;
+}
